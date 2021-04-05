@@ -1,0 +1,78 @@
+<!--pages/home/home.wxml-->
+<wxs module="time">
+    function add0(m){return m<10?'0'+m:m };
+    function format(timeStamp){
+      var time = getDate(timeStamp);
+      var y = time.getFullYear();
+      var m = time.getMonth()+1;
+      var d = time.getDate();
+      var h = time.getHours();
+      var mm = time.getMinutes();
+      return y+'-'+add0(m)+'-'+add0(d)+' '+add0(h)+':'+add0(mm);
+    };
+    //判断消息是否当天发布，需要判断年月日
+    function todayNews(create_timeStamp){
+      var today = getDate();
+      var postDate = getDate(create_timeStamp);
+      return postDate.getDate()===today.getDate() && postDate.getMonth()===today.getMonth() && postDate.getFullYear()===today.getFullYear()? true: false  
+    }
+    module.exports = {
+      format:format,
+      todayNews:todayNews
+    }
+</wxs>
+
+
+<view class="page-box">
+  <!--幻灯片 star-->
+  <view class="swiper-box">
+    <swiper 
+      indicator-dots="{{indicatorDots}}" 
+      autoplay="{{autoplay}}" 
+      interval="{{interval}}" 
+      duration="{{duration}}"
+      circular="true"
+      indicator-active-color= "rgba(0,0,0,0.5)"
+    >
+        <block wx:for="{{slider}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item.slider1}}"></image>
+            <!-- <view class="swiper-item {{item}}">111</view> -->
+          </swiper-item>
+        </block>
+      </swiper>
+  </view>
+  <!--幻灯片 end-->
+
+  <!--消息列表 star-->
+  <view class="message-head">
+    <van-icon name="volume" class="newsIcon" />
+    <view class="title">最新消息</view>
+  </view>
+  <view class="message-list" >
+    <view class="item" wx:for="{{message}}" wx:key="_id">
+      <view class="message-title">
+        <view class="title-v">完成</view>
+        <view class="title-n">{{item.content}}</view>
+        <image class="title-icon" src="./../../images/message_new.png" hidden="{{!time.todayNews(item._createTime)}}"></image>
+      </view>
+      <view class="item-detail">
+        <view class="item-detail-row">
+          <view class="item-detail-v">截止时间</view>
+          <view class="item-detail-n">{{time.format(item.ddl)}}</view>
+        </view>    
+        <view class="item-detail-row">
+          <view class="item-detail-v">注意事项</view>
+          <view class="item-detail-n">{{item.note}}</view>
+        </view>
+        <view class="post-time">{{time.format(item._createTime)}}</view>
+      </view>   
+    </view>
+
+    <van-divider contentPosition="center" wx:if="{{isComplete}}">没有更多啦~</van-divider>
+  </view>
+  
+  
+
+  <!--消息列表 end-->
+</view>

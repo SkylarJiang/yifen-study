@@ -1,0 +1,35 @@
+<view class="page-box">
+  <van-cell-group>
+  <van-field
+    value="{{ name }}"
+    label="昵称"
+    placeholder="请输入昵称"
+    auto-focus
+    bind:change="onChange"
+    data-name="name"
+  />
+  <van-field
+    value="{{ contact }}"
+    label="联系方式"
+    placeholder="请输入邮箱/手机号"
+    auto-focus
+    bind:change="onChange"
+    data-name="contact"
+  />
+  <van-field
+    value="{{ message }}"
+    label="留言"
+    type="textarea"
+    placeholder="请输入留言"
+    autosize
+    border="{{ false }}"
+    auto-focus
+    required
+    bind:change="onChange"
+    data-name="message"
+  />
+ 
+
+  <van-button type="primary" block bind:click="submit">提交</van-button>
+</van-cell-group>
+</view>

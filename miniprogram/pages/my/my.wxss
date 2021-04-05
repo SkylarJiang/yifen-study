@@ -1,0 +1,61 @@
+.personalMes-box{
+  background-color: rgba(152, 102, 242, 0.29);
+  display: flex;
+  padding: 70rpx 36rpx 70rpx ;
+  border-radius: 22rpx;
+  margin: 20rpx 40rpx;
+  position: relative
+}
+
+.personalMes-box .avatar{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  margin-right:40rpx 
+}
+
+.personalMes-box .message-box{
+  margin-top: 30rpx;
+}
+
+.personalMes-box .message-box .name{
+  color: #444;
+  font-size: 32rpx;
+  line-height: 60rpx;
+}
+
+.personalMes-box .message-box .class{
+  color: #7f7f7f;
+  font-size: 26rpx;
+}
+
+.personalMes-box .message{
+  position: absolute;
+  right: 56rpx;
+  top: 46rpx
+}
+
+/* 列表样式 */
+
+.van-cell__title{
+  line-height: 90rpx;
+  padding:0 30rpx;
+}
+
+.start-test .van-cell__title{
+  color:#9866F2
+}
+
+.van-icon-arrow{
+  margin-top:35rpx;
+}
+
+.page{
+  position: relative;
+}
+button{
+  margin: 40rpx;
+  
+  color:#444;
+  font-size: 32rpx
+}

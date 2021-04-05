@@ -1,0 +1,8 @@
+<view class="page-box">
+  <view class="statement">
+    <view class="statementTitle">智能组卷</view>
+    <view class="statementContent">将在系统随机抽取单选题25道、多选题10道、判断题15道组成试卷，考试限时40分钟</view>
+  </view>
+  <button class="start-button" bindtap="enterTest">开始考试</button>
+</view>
+

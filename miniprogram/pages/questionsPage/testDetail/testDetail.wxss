@@ -1,0 +1,43 @@
+.page-box{
+  padding: 40rpx;
+  font-size: 32rpx
+}
+
+.header-box{
+  overflow: hidden;
+  font-size: 28rpx;
+}
+
+.timer{
+  float: left;
+  display: flex;
+  color:  #9866F2;
+}
+
+.timer-icon{
+  font-size: 32rpx;
+  padding-right: 20rpx;
+}
+
+.progress{
+  float:right;
+}
+
+.collect-icon{
+  float:right;
+  margin-right: 28rpx;
+  font-size: 32rpx
+}
+
+.location-icon{
+  float:right;
+  margin-right: 18rpx;
+  font-size: 32rpx
+}
+
+.question{
+  padding-bottom: 40rpx
+}
+
+
+

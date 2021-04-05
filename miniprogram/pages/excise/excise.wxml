@@ -1,0 +1,42 @@
+<!--自主练习-->
+<van-divider contentPosition="center" fontSize="32rpx" textColor="#333">
+  <van-icon name="chart-trending-o" class="icon"/>
+   自主练习
+</van-divider>
+<van-grid column-num="2" clickable="true" >
+  <van-grid-item 
+    icon="points" 
+    text="章节练习" 
+    link-type="navigateTo"
+    url="./excise_nextPage/rangePick/rangePick"/>
+  <van-grid-item 
+    icon="qr"
+    text="分类练习" 
+    link-type="navigateTo"
+    url="./excise_nextPage/typePick/typePick"
+    />
+  <van-grid-item icon="notes-o" text="背题模式" data-name="memorize" bind:click="click"/>
+  <van-grid-item icon="edit" text="题库刷题" data-name="questionBank" bind:click="click"/>
+  <van-grid-item icon="failure" text="错题本" data-name="wrongList" bind:click="click"/>
+  <van-grid-item icon="star-o" text="收藏夹" data-name="collectedList" bind:click="click"/>
+</van-grid>
+
+<!--限时测试-->
+<van-divider contentPosition="center" fontSize="32rpx" textColor="#333" class="test-line">
+  <van-icon name="clock-o" class="icon"/>
+  限时测试
+</van-divider>
+<van-cell
+  is-link
+  title="立即开始测试"
+  link-type="navigateTo"
+  url="./excise_nextPage/startTest/startTest"
+  class="start-test"
+/>
+<van-cell
+  is-link
+  title="查看历史测试报告"
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+/>
+

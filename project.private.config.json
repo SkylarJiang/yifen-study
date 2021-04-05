@@ -1,0 +1,114 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "dataPage",
+          "pathName": "pages/dataPage/dataPage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "excise",
+          "pathName": "pages/excise/excise",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "radio",
+          "pathName": "pages/questionsPage/detail/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "rangePick",
+          "pathName": "pages/excise/excise_nextPage/rangePick/rangePick",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "typePick",
+          "pathName": "pages/excise/excise_nextPage/typePick/typePick",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "startTest",
+          "pathName": "pages/excise/excise_nextPage/startTest/startTest",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "feedback",
+          "pathName": "pages/my/my_nextPage/feedback/feedback",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "myHistory",
+          "pathName": "pages/my/my_nextPage/myHistory/myHistory",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "testHistory",
+          "pathName": "pages/excise/excise_nextPage/testHistory/testHistory",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "testDetail",
+          "pathName": "pages/questionsPage/testDetail/testDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "logon",
+          "pathName": "pages/logon/logon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "textScore",
+          "pathName": "pages/questionsPage/testScore/testScore",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

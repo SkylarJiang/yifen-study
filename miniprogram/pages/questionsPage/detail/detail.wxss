@@ -1,0 +1,52 @@
+.page-box{
+  padding: 40rpx;
+  font-size: 32rpx
+}
+
+.header-box{
+  overflow: hidden;
+  font-size: 28rpx;
+}
+
+.questionType{
+  float: left;
+}
+
+.progress{
+  float:right;
+}
+
+.collect-icon{
+  float:right;
+  margin-right: 20rpx;
+  font-size: 32rpx
+}
+
+.type-box{
+  color: #9866F2;
+}
+
+.question{
+  padding-bottom: 40rpx
+}
+
+/* 答案解析部分 */
+
+.hiden-content{
+  font-size: 28rpx;
+  line-height: 56rpx;
+}
+
+.rightAnswer{
+  color: #9866F2
+}
+
+.wrongAnswer{
+  color: red
+}
+
+.littleTitle{
+  color:#777;
+  padding-right: 10rpx
+}
+

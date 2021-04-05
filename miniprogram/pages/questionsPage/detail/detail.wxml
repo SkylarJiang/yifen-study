@@ -1,0 +1,66 @@
+<view class="page-box">
+  <!-- 有题目的时候展示题目 -->
+  <view class="questionDetail" hidden="{{empty}}">
+    <!-- 顶部的收藏按钮、题号、star-o -->
+    <view class="header-box">
+      <view class="questionType">{{subject.type}}练习（{{subject.range}}）</view>
+      <view class="progress">{{current}}/{{total}}</view>
+      <view class="collect-icon">
+        <van-icon name="{{collected?'star':'star-o'}}" color="#9866F2" bind:click="toggleCollect" />
+      </view>
+    </view>
+    <van-divider />
+    <!--题干-->
+    <view class="question-box">
+      <view class="question">
+        <text class="ques-num">{{current}}. </text>
+        <text class="type-box">（<text class="type">{{subject.type}}</text>）</text>
+        <text class="">{{subject.question}}</text>
+      </view>
+      <van-radio-group value="{{ radio }}" bind:change="onChange">
+        <van-cell-group wx:for="{{subject.options}}" wx:key="id">
+          <van-cell title="{{item.code}}. {{item.option}}" clickable data-name="{{item.code}}" bind:click="onClick">
+            <van-radio slot="right-icon" name="{{item.code}}" checked-color="#9866F2" />
+          </van-cell>
+        </van-cell-group>
+      </van-radio-group>
+    </view>
+    <van-divider />
+    <!--弹出的答案解析-->
+    <view class="toastAnswer" hidden="{{showAnswer}}">
+      <van-cell title="{{showWrongAnswer?'点击查看答案及错误记录':'点击查看答案'}}" bind:click="showPopup" />
+      <van-popup show="{{ show }}" bind:close="onClose" position="bottom" custom-style="height: 30%;" round
+        close-on-click-overlay>
+        <view class="hiden-content" style="padding:40rpx">
+          <view class="answer-content">
+            <text class="littleTitle">正确答案：</text>
+            <text class="rightAnswer">{{subject.answer}}</text>
+          </view>
+          <view class="wrongAnswer-content" hidden="{{!showWrongAnswer}}">
+            <text class="littleTitle">上一次的错误答案：</text>
+            <text class="wrongAnswer">{{subject.wrongAnswer}}</text>
+          </view>
+          <view class="answer-detail">
+            <text class="littleTitle">答案解析：</text>
+            我也不知道为什么，我乱选的
+          </view>
+        </view>
+      </van-popup>
+    </view>
+
+    <!--背题模式时的答案解析-->
+    <view class="hiden-content" style="padding:20rpx" hidden="{{!showAnswer}}">
+      <view class="answer-content">
+        <text class="littleTitle">正确答案：</text>
+        <text class="rightAnswer">{{subject.answer}}</text>
+      </view>
+      <view class="answer-detail">
+        <text class="littleTitle">答案解析：</text>
+        我也不知道为什么，我乱选的
+      </view>
+    </view>
+  </view>
+
+  <!--还没有题目的时候-->
+  <view hidden="{{!empty}}">该部分题库尚未上传</view>
+</view>

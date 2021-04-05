@@ -1,0 +1,19 @@
+<view class="page-box">
+  <view class="page-title">
+    <van-icon name="setting" class="pick-icon"/>
+    <text class="page-title-name">请选择章节</text>
+  </view>
+    <van-collapse accordion value="{{ activeName }}" bind:change="onChange" wx:for="{{rangeMess}}" wx:key='groupTitle'>
+      <van-collapse-item title="{{item.groupTitle}}" name="{{index+1}}"  >
+        <van-cell-group border='{{ false }}' wx:for="{{item.groupsName}}" wx:key="id" wx:for-item='range'>
+          <van-cell
+          title="{{range}}"
+          link-type="navigateTo"
+          bind:click="click"
+          clickable="true"
+          data-name="{{range}}"
+        />
+        </van-cell-group>
+      </van-collapse-item>
+    </van-collapse>
+</view>

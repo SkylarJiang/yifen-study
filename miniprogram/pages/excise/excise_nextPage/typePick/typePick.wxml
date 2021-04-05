@@ -1,0 +1,9 @@
+<view class="page-box">
+  <view class="page-title">
+    <van-icon name="setting" class="pick-icon" />
+    <text class="page-title-name">请选择测试类型</text>
+  </view>
+  <van-cell-group wx:for="{{types}}" wx:key="{{item}}">
+    <van-cell is-link title="{{item.name}}" link-type="navigateTo" bind:click="pick" data-name="{{item.name}}"/>
+  </van-cell-group>
+</view>

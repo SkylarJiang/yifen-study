@@ -1,0 +1,36 @@
+<view class="data-container">
+  <van-collapse value="{{ activeNames }}" bind:change="onChange">
+    <van-collapse-item title="第一章：绪论" name="1">
+      <van-cell-group border='{{ false }}' wx:for="{{fileList_1}}">
+        <van-cell title="{{item.fileName}}" link-type="navigateTo" bind:click="click" clickable="true"
+          data-name="{{item.file}}">
+
+        </van-cell>
+      </van-cell-group>
+    </van-collapse-item>
+    <van-collapse-item title="第二章：光谱分析篇" name="2">
+      <van-cell-group border='{{ false }}' wx:for="{{fileList_2}}">
+        <van-cell title="{{item.fileName}}" link-type="navigateTo" bind:click="click" clickable="true"
+          data-name="{{item.file}}" />
+      </van-cell-group>
+    </van-collapse-item>
+    <van-collapse-item title="第三章：电分析化学篇" name="3">
+      <van-cell-group border='{{ false }}' wx:for="{{fileList_3}}">
+        <van-cell title="{{item.fileName}}" link-type="navigateTo" bind:click="click" clickable="true"
+          data-name="{{item.file}}" />
+      </van-cell-group>
+    </van-collapse-item>
+    <van-collapse-item title="第四章：分离分析篇" name="4">
+      <van-cell-group border='{{ false }}' wx:for="{{fileList_4}}">
+        <van-cell title="{{item.fileName}}" link-type="navigateTo" bind:click="click" clickable="true"
+          data-name="{{item.file}}" />
+      </van-cell-group>
+    </van-collapse-item>
+    <van-collapse-item title="第五章：其他分析方法篇" name="5">
+      <van-cell-group border='{{ false }}' wx:for="{{fileList_5}}">
+        <van-cell title="{{item.fileName}}" link-type="navigateTo" bind:click="click" clickable="true"
+          data-name="{{item.file}}" />
+      </van-cell-group>
+    </van-collapse-item>
+  </van-collapse>
+</view>

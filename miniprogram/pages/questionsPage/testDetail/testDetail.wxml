@@ -1,0 +1,46 @@
+<view class="page-box">
+  <!-- 有题目的时候展示题目 -->
+  <view class="questionDetail">
+    <!-- 顶部的收藏按钮、题号、star-o -->
+    <view class="header-box">
+      <!-- 时钟 -->
+      <view class="timer">
+        <van-icon name="underway" color="#9866F2" class="timer-icon"/>
+        <van-count-down use-slot time="{{ time }}" bind:change="onChangeTimer" class="control-count-down">
+          <text class="item">{{ timeData.minutes }} : </text>
+          <text class="item">{{ timeData.seconds }}</text>
+        </van-count-down>
+      </view>
+      <view class="progress">{{current}}/{{total}}</view>
+      <!-- 收藏icon -->
+      <view class="collect-icon">
+        <van-icon name="{{collected?'star':'star-o'}}" color="#9866F2" bind:click="toggleCollect" />
+      </view>
+      <!-- 查看所有题目 -->
+      <view class="location-icon">
+        <van-icon name="browsing-history-o" color="#9866F2" bind:click="seeHistory" />
+      </view>
+      <!-- 标记icon -->
+      <!-- <view class="location-icon">
+        <van-icon name="{{located?'location':'location-o'}}" color="orange" bind:click="toggleLocation" />
+      </view> -->
+    </view>
+    <van-divider />
+    <!--题干-->
+    <view class="question-box">
+      <view class="question">
+        <text class="ques-num">{{current}}. </text>
+        <text class="type-box">（<text class="type">{{subject.type}}</text>）</text>
+        <text class="">{{subject.question}}</text>
+      </view>
+      <van-radio-group value="{{ radio }}" bind:change="onChange">
+        <van-cell-group wx:for="{{subject.options}}" wx:key="id">
+          <van-cell title="{{item.code}}. {{item.option}}" clickable data-name="{{item.code}}" bind:click="onClick">
+            <van-radio slot="right-icon" name="{{item.code}}" checked-color="#9866F2" />
+          </van-cell>
+        </van-cell-group>
+      </van-radio-group>
+    </view>
+  </view>
+  <!--还没有题目的时候-->
+</view>

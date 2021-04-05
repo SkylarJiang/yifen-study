@@ -1,0 +1,30 @@
+.page-box{
+  padding: 30rpx;
+  position: relative;
+}
+
+.statement{
+  position: absolute;
+  top: 300rpx;
+  text-align: center;
+  padding: 50rpx
+}
+
+.statement .statementTitle{
+  font-size: 32rpx;
+  color: #9866F2;
+  line-height: 100rpx;
+}
+
+.statement .statementContent{
+  line-height: 48rpx;
+}
+
+.start-button{
+  position: relative;
+  top: 800rpx;
+  color:white;
+  font-size: 32rpx;
+  width: 200rpx;
+  background-color:#9866F2;
+}

@@ -1,0 +1,10 @@
+.page-box{
+  padding: 40rpx;
+  position: relative;
+}
+
+.van-button{
+  position: absolute;
+  margin-top:200rpx;
+  font-size: 32rpx;
+}

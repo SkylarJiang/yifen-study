@@ -1,0 +1,17 @@
+.page-box{
+  padding:40rpx;
+  position: relative;
+}
+
+button{
+  position:absolute;
+  width: 600rpx;
+  top: 600rpx;
+  left: 75rpx;
+  color:#444;
+  font-size: 30rpx;
+  margin-top: 80rpx;
+  background-color:rgba(152, 102, 242);
+  color:white;
+  border:none
+}

@@ -1,0 +1,33 @@
+.message-head{
+  display: flex;
+  margin-left: 50rpx;
+}
+
+.message-head .title{
+  margin-left: 20rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+
+.icon{
+  font-size: 40rpx;
+  padding-right: 20rpx;
+  color: #9866F2
+}
+
+.test-line{
+  padding-top: 50rpx
+}
+
+.van-cell__title{
+  line-height: 90rpx;
+  padding:0 30rpx;
+}
+
+.start-test .van-cell__title{
+  color:#9866F2
+}
+
+.van-icon-arrow{
+  margin-top:35rpx;
+}

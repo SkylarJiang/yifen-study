@@ -1,0 +1,33 @@
+<view class="page-box">
+  <view class="welcome">欢迎回来！</view>
+  <van-cell-group>
+
+  <van-field
+    value="{{ account }}"
+    label="学号"
+    placeholder="请输入学号"
+    required
+    data-name="account"
+    bind:change="onFieldChange"
+    bind:blur='onFieldFinish'
+    error-message="{{accountFalse?accountFalseMess:''}}"
+  />
+  
+  <van-field
+    value="{{ password }}"
+    label="密码"
+    placeholder="请输入密码"
+    data-name="password"
+    type="password"
+    required
+    bind:change="onFieldChange"
+    bind:blur='onFieldFinish'
+    error-message="{{passwordFalse?passwordFalseMess:''}}"
+  />
+</van-cell-group>
+
+<button bindtap="check">登录</button>
+  <view class='logonText'bindtap="goToLogon">还没有账号？
+    <navigator class="logon" hover-class="logonHover" url="../logon/logon" >马上注册</navigator>
+  </view>
+</view>

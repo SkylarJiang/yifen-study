@@ -1,0 +1,22 @@
+.page-box{
+  padding: 30rpx
+}
+.page-title{
+  height: 100rpx;
+  position: relative;
+  font-size: 32rpx;
+}
+
+.pick-icon{
+  position: absolute;
+  color:#9866F2;
+  font-size: 40rpx;
+  left: 20rpx;
+  top:30rpx
+}
+
+.page-title-name{
+  padding-left:80rpx;
+  line-height:100rpx;
+  margin:0
+}

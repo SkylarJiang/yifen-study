@@ -1,0 +1,47 @@
+.page-box{
+  padding: 40rpx;
+  position: relative;
+}
+
+.welcome{
+  line-height: 200prx;
+  font-size: 40rpx;
+  margin:50rpx 40rpx
+}
+
+.van-cell{
+  background: orange
+}
+
+button{
+  position:absolute;
+  width: 600rpx;
+  top: 400rpx;
+  left: 75rpx;
+  color:#444;
+  font-size: 30rpx;
+  margin-top: 80rpx;
+  background-color:rgba(152, 102, 242);
+  color:white;
+  border:none
+}
+
+.logonText{
+  position: absolute;
+  top: 1120rpx;
+  left: 235rpx;
+  text-align:center;
+}
+
+.logon{
+  color:rgba(152, 102, 242)
+}
+
+.logonHover{
+  color:rgba(152, 102, 242,0.29)
+}
+
+.logon{
+  display: inline;
+}
+

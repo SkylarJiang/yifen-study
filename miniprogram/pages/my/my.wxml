@@ -1,0 +1,26 @@
+
+ <view class="personalMes-box">
+    <van-icon name="chat-o" class="message" color="white" size="50rpx" dot/>
+    <view class="avatar-box">
+      <image class="avatar" src="../../images/avatar.jpg"></image>
+    </view>
+    <view class="message-box">
+      <view class="name">张三-17329000</view>
+      <view class="class">2017级高分子材料与工程</view>
+    </view>
+  </view>
+    <van-cell
+    is-link
+    title="练习报告"
+    link-type="navigateTo"
+    url="/pages/dashboard/index"
+  />
+  <van-cell
+    is-link
+    title="问题反馈"
+    link-type="navigateTo"
+    url="./my_nextPage/feedback/feedback"
+  />
+
+
+<button bindtap="logout">退出登录</button>

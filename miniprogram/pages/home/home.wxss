@@ -1,0 +1,88 @@
+/* pages/home/home.wxss */
+
+.swiper-box{
+  padding:60rpx;
+}
+
+.swiper-box swiper{
+  height:320rpx
+}
+
+.swiper-box swiper image {
+  width:100%;
+  height: 100%
+}
+
+.message-head{
+  display: flex;
+  margin-left: 50rpx;
+}
+
+.message-head .title{
+  margin-left: 20rpx;
+  line-height: 60rpx;
+  font-size: 32rpx;
+}
+
+.newsIcon{
+  color:#9866F2;
+  font-size: 40rpx
+}
+
+.message-head .message-head-icon{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.message-list .item .message-title {
+  display: flex;
+  font-size: 32rpx;
+  border-bottom: solid 2rpx #999;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+
+.message-list .item .message-title .title-v{
+  width: 120rpx;
+  color: #888;
+}
+
+.message-list .item .message-title .title-n{
+  color: #9866F2;
+}
+.message-list .item .message-title .title-icon{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  right: -10rpx;
+  top: -20rpx;
+}
+
+.message-list .item .item-detail .item-detail-row{
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.item-detail-v{
+  margin-right: 60rpx;
+  color: #7F7F7F;
+  flex-shrink:0;
+}
+.message-list .item{
+  margin: 40rpx 40rpx;
+  border: solid 2rpx #eee;
+  padding: 40rpx 50rpx 20rpx;
+  line-height:40rpx ;
+}
+
+.message-list .item .post-time{
+  color: #7f7f7f;
+  line-height: 90rpx;
+  text-align: right;
+}
+
+.message-list .no-more{
+  text-align: center;
+  line-height: 90rpx;
+  padding-bottom: 30rpx;
+}
