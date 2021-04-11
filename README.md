@@ -14,9 +14,12 @@
 --------
 
 # 项目简介
+
+## 一、功能介绍
+
 基于微信小程序的仪器分析学习平台，包括以下几个模块的功能
 
-## 1. 登录和注册
+### 1. 登录及注册
 
 - 登录：校验是否已经输入账号密码，账号是否为8位数字，是否已经注册，密码是否正确
 
@@ -24,25 +27,41 @@
 
 - 注册页面
 
-  <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/登录.jpg" alt="登录" style="zoom: 67%;" />
+  <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/登录.jpg" alt="登录" style="zoom: 50%;" />
 
-## 2. 消息的发布及展示
+### 2. 消息的发布及展示
 
 
 
-## 3. 题库上传和做题
+### 3. 题库上传和做题
 
 - 章节练习
-- 题型练习
+
+  - 章节选择
+
+    <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/章节选择.gif?raw=true" alt="image-20210411093857988" style="zoom:50%;" />
+
+- 题型选择
+
+  <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/zhangjei .jpg" alt="zhangjei " style="zoom: 50%;" />
+
+- （具体做题页面展示）
+
+  <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E9%A2%98%E7%9B%AE%E8%AF%A6%E6%83%85.gif?raw=true" alt="image-20210411093857988" style="zoom:50%;" />
+
 - 背题模式
+
+  - 背题模式
+
 - 错题本
+
 - 收藏夹
 
 
 
 ## 4. 测验和成绩分析
 
-
+<img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E6%B5%8B%E8%AF%95.gif?raw=true" alt="image-20210411093857988" style="zoom:50%;" />
 
 ## 5. 问题反馈及收集
 
