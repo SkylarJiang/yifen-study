@@ -35,6 +35,8 @@
 
 ​	
 
+<img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E9%80%80%E5%87%BA%E7%99%BB%E5%BD%95.gif?raw=true" alt="登录" style="zoom: 33%;" width="300" />
+
 
 
 ### 2. 消息的发布及展示
@@ -96,7 +98,7 @@
 
 
 
-	##### 4.1.2 分题型练习
+##### 4.1.2 分题型练习
 
 - 点击进入相应题型
 
@@ -138,5 +140,11 @@
 
 ### 5. 问题反馈及收集
 
+- 提交时显示提交成功或“请输入留言”
 
+<img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/feedback.jpg" alt="feedback" width="300"/>
 
+## 二、其他
+
+- 共有首页、课件、练习、我的四个tab
+- 使用云开发的cms系统进行内容管理，可以方便、可视化地实现题库操作、用户管理、消息发布、课件上传等功能
