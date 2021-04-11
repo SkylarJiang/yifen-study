@@ -23,11 +23,11 @@
 
 - 登录：校验是否已经输入账号密码，账号是否为8位数字，是否已经注册，密码是否正确
 
-  ![image-20210411093857988](https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/1BA98425798916CD41A87E8C482D12EF.gif?raw=true)
+  <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/1BA98425798916CD41A87E8C482D12EF.gif?raw=true" alt="image-20210411093857988" style="zoom:33%;" />
 
 - 注册页面
 
-  <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/登录.jpg" alt="登录" style="zoom: 50%;" />
+  <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/登录.jpg" alt="登录" style="zoom: 33%;" />
 
 ### 2. 消息的发布及展示
 
@@ -39,15 +39,15 @@
 
   - 章节选择
 
-    <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/章节选择.gif?raw=true" alt="image-20210411093857988" style="zoom:50%;" />
+    <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/章节选择.gif?raw=true" alt="image-20210411093857988" style="zoom: 33%;" />
 
 - 题型选择
 
-  <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/zhangjei .jpg" alt="zhangjei " style="zoom: 50%;" />
+  <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/zhangjei .jpg" alt="zhangjei " style="zoom: 33%;" />
 
 - （具体做题页面展示）
 
-  <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E9%A2%98%E7%9B%AE%E8%AF%A6%E6%83%85.gif?raw=true" alt="image-20210411093857988" style="zoom:50%;" />
+  <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E9%A2%98%E7%9B%AE%E8%AF%A6%E6%83%85.gif?raw=true" alt="image-20210411093857988" style="zoom: 33%;" />
 
 - 背题模式
 
@@ -61,7 +61,7 @@
 
 ## 4. 测验和成绩分析
 
-<img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E6%B5%8B%E8%AF%95.gif?raw=true" alt="image-20210411093857988" style="zoom:50%;" />
+<img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E6%B5%8B%E8%AF%95.gif?raw=true" alt="image-20210411093857988" style="zoom: 33%;" />
 
 ## 5. 问题反馈及收集
 
