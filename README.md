@@ -135,7 +135,7 @@
    - 题目：序号、题型强调、题目及选项
    - 跳转：用户选择后进入下一道题；最后一道题后提示是否提交；倒计时结束后强制提交
 
-<img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E6%B5%8B%E8%AF%95.gif?raw=true" alt="image-20210411093857988" style="zoom: 33%;" />
+<img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E6%B5%8B%E8%AF%95.gif?raw=true" alt="image-20210411093857988" width="300"/>
 
 ### 5. 问题反馈及收集
 
