@@ -79,9 +79,9 @@
 
   1. 错题本：弹出时在普通模式的基础上增加了“上次的错误选项”部分
 
-     <img src="C:%5CUsers%5Chz%5CDesktop%5C%E5%8E%9F%E5%9E%8B%E5%9B%BE%5Cwrong.jpg" alt="wrong" width="300"/>
+  2. <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/wrong.jpg" alt="wrong" width="300" />
 
-  2. 背题模式：不设置“点击查看答案”，答案直接展示在题目下方
+  3. 背题模式：不设置“点击查看答案”，答案直接展示在题目下方
 
      <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/背题模式答案.jpg" alt="背题模式答案" width="300" />
 
