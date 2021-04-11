@@ -23,7 +23,7 @@
 
 - 登录：校验是否已经输入账号密码，账号是否为8位数字，是否已经注册，密码是否正确
 
-  <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/1BA98425798916CD41A87E8C482D12EF.gif?raw=true" alt="image-20210411093857988" style="zoom:33%;" />
+  <img src="https://github.com/SkylarJiang/yifen-study/blob/master/miniprogram/images/readme/%E9%A6%96%E9%A1%B5.gif?raw=true" style="zoom:33%;" />
 
 - 注册页面
 
