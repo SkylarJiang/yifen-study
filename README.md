@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 云开发 quickstart
 
 这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
@@ -9,4 +10,41 @@
 ## 参考文档
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+
+--------
+
+# 项目简介
+基于微信小程序的仪器分析学习平台，包括以下几个模块的功能
+
+## 1. 登录和注册
+
+- 登录：校验是否已经输入账号密码，账号是否为8位数字，是否已经注册，密码是否正确
+
+  ![image-20210411093857988](http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/image-20210411093857988.png)
+
+- 注册页面
+
+  <img src="http://pictures-by-skylar.oss-cn-shenzhen.aliyuncs.com/img/登录.jpg" alt="登录" style="zoom: 67%;" />
+
+## 2. 消息的发布及展示
+
+
+
+## 3. 题库上传和做题
+
+- 章节练习
+- 题型练习
+- 背题模式
+- 错题本
+- 收藏夹
+
+
+
+## 4. 测验和成绩分析
+
+
+
+## 5. 问题反馈及收集
+
+
 
